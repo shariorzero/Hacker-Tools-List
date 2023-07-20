@@ -63,7 +63,7 @@
       </ul>
     </li>
     <li>
-      <a href="#Footprinting and Reconnaissance">Footprinting and Reconnaissance</a>
+      <a href="#Footprinting-and-Reconnaissance">Footprinting and Reconnaissance</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
