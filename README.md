@@ -205,6 +205,27 @@ Cover the Camera and Microphone first and then
   ExoneraTor https://metrics.torproject.org/
   Onion Land Search Engine https://onionlandsearchengine.com/
   ```
+### Determine Target OS through Passive Footprinting
+Use censys.io search
+  ```sh
+  https://search.censys.io/
+```
+
+### Gather Personal Information from Various Social Platform Sites using Sherlock
+parrot os
+  ```sh
+  python3 sherlock limon
+  python3 sherlock sid209e --print-found
+  python3 sherlock joe -o target.txt
+  ```
+Also, use Social Searcher or UserRecon.
+
+### Gather Infomation using Followerwonk
+link
+  ```sh
+  https://followerwonk.com/analyze.html
+  ```
+also, use Hootsuite and meltwater.
   
 
 <p align="right">(<a href="#top">back to top</a>)</p>
