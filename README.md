@@ -134,17 +134,35 @@ This is an example of how to list things you need to use the software and how to
 ### YouTube Metadata
 
  at
-   ```sh
-    https://mattw.io/youtube-metadata/
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+  ```sh
+  https://mattw.io/youtube-metadata/
+  ```
+  ```sh
+  https://www.google.com/videohp
+  ```
+reverse image search
+  ```sh
+  https://tineye.com/
+  ```
+### FTP search engines
+
+ at
+  ```sh
+  https://www.searchftps.net/
+  ```
+  ```sh
+  https://www.freewareweb.com/
+  ```
+
+### IoT search engines
+
+ at
+  ```sh
+  https://www.shodan.io/
+  ```
+  ```sh
+  https://censys.com/
+  ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
