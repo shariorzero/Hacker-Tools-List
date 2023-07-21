@@ -189,16 +189,23 @@ reverse image search
   https://www.spokeo.com/
   https://pipl.com/
   ```
-
-### IoT search engines
-
- at
+### Gather an Email List using The Harvester
+parrot os
   ```sh
-  https://www.shodan.io/
+  cd theHarvester
+  python3 theHarvester.py -d microsoft.com -l 200 -b baidu
+  ```
+### Gather Information using Deep and Dark Searching
+
+Cover the Camera and Microphone first and then
+  ```sh
+  Tor https://www.duchduchgo.com/
   ```
   ```sh
-  https://censys.com/
+  ExoneraTor https://metrics.torproject.org/
+  Onion Land Search Engine https://onionlandsearchengine.com/
   ```
+  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
