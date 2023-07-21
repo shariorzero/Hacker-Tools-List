@@ -163,6 +163,42 @@ reverse image search
   ```sh
   https://censys.com/
   ```
+### Find Company Domain and Subdomains Using Netcraft
+
+ at
+  ```sh
+  https://www.netcraft.com/tools/
+  ```
+Sublist3r
+  ```sh
+  https://github.com/aboul3la/Sublist3r
+  ```
+reverse image search
+  ```sh
+  https://pentest-tools.com/information-gathering/find-subdomains-of-domain
+  ```
+### Gather Personal Information using PeekYou Online People Search
+
+ at
+  ```sh
+  https://www.peekyou.com/
+  ```
+  ```sh
+  https://www.beenverified.com/
+  https://www.intelius.com/
+  https://www.spokeo.com/
+  https://pipl.com/
+  ```
+
+### IoT search engines
+
+ at
+  ```sh
+  https://www.shodan.io/
+  ```
+  ```sh
+  https://censys.com/
+  ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
