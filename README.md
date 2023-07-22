@@ -1,12 +1,5 @@
 
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
 
 
@@ -226,6 +219,66 @@ link
   https://followerwonk.com/analyze.html
   ```
 also, use Hootsuite and meltwater.
+
+### Gather Information to Test the Reachability of a Host and Measure Round Trip Time using PING
+PING is used to check the reachability of a host on an IP network and measure roundtrip time for messages sent from originating host to a destination computer.(sends ICMP echo request to the target host and wait for ICMP response). Open CMD or linux terminal
+  ```sh
+  ping www.xyz.com
+  ping www.xyz.com -f -l 1500
+  ping 162.1.153.3 -i 20 -n 1
+  ```
+### Photon
+Key Feature: Photon can extract the following data while crawling:
+* URLs (in-scope and out-of-scope)
+* URLs with parameters. (example.com/gallery.php?id=3)
+* Intel (emails, social media accounts, etc. )
+* Files (png, jpeg, pdf, etc.)
+* Secret keys (API keys and hashes.)
+* Subdomains and DNS-related data.
+* Strings matching custom regex pattern.
+    
+  ```sh
+  photon -u www.xyz.com
+  photon -u iu.ac.bd -l 3 -t 200 --wayback
+  ```
+### CentralOps.net
+A free online scanner that investigates domains and IP addresses, DNS records, traceroute, nslookup, whois searches etc.
+  ```sh
+  https://centralops.net/co/
+  ```
+Also, use Burp Suite or website informer (https://website.informer.com/).
+### Extract Company's Data using Web Data Extractor
+Download and install web data extractor in Windows VM.
+  ```sh
+  http://www.webextractor.com/download.htm
+  ```
+
+<!--check@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+
+
+### Determine Target OS through Passive Footprinting
+Use censys.io search
+  ```sh
+  https://search.censys.io/
+```
+
+### Gather Personal Information from Various Social Platform Sites using Sherlock
+parrot os
+  ```sh
+  python3 sherlock limon
+  python3 sherlock sid209e --print-found
+  python3 sherlock joe -o target.txt
+  ```
+Also, use Social Searcher or UserRecon.
+
+### Gather Infomation using Followerwonk
+link
+  ```sh
+  https://followerwonk.com/analyze.html
+  ```
+also, use Hootsuite and meltwater.
+
+
   
 
 <p align="right">(<a href="#top">back to top</a>)</p>
