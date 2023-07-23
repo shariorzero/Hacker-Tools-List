@@ -256,27 +256,19 @@ Download and install web data extractor in Windows VM.
 <!--check@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 
 
-### Determine Target OS through Passive Footprinting
-Use censys.io search
-  ```sh
-  https://search.censys.io/
-```
+### Mirror a Website using HTTrack Website Copier
+Create a clone or mirror the original website in your local directory.
+(windows)
+### Gather Information of a Website using GRecon
+Google Dorking python tool used to collect domain, sub-domain, directories etc.
+(parrot os)
 
-### Gather Personal Information from Various Social Platform Sites using Sherlock
-parrot os
-  ```sh
-  python3 sherlock limon
-  python3 sherlock sid209e --print-found
-  python3 sherlock joe -o target.txt
-  ```
-Also, use Social Searcher or UserRecon.
-
-### Gather Infomation using Followerwonk
+### Gather a Wordlist from the Target Website
+CeWL: (Parrot OS)
 link
   ```sh
-  https://followerwonk.com/analyze.html
+  cewl -w worldlist.txt -d 2 -m 5 xyz.com
   ```
-also, use Hootsuite and meltwater.
 
 
   
