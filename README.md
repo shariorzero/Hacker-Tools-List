@@ -253,7 +253,6 @@ Download and install web data extractor in Windows VM.
   http://www.webextractor.com/download.htm
   ```
 
-<!--check@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 
 
 ### Mirror a Website using HTTrack Website Copier
@@ -270,7 +269,42 @@ link
   cewl -w worldlist.txt -d 2 -m 5 xyz.com
   ```
 
+<!--check@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+### Track Email Sender Identity, IP Address, Mail Server, Geolocation
+Use  email tracker Infoga or Mailtrack (eMailTrackerPro software not available now). This help to find out the email location 
+  ```sh
+  Infoga
+  https://github.com/m4ll0k/Infoga
+  python infoga.py
+  $ python infoga.py --domain nsa.gov --source all --breach -v 2 --report ../nsa_gov.txt
+  or
+  Mailtrack
+  https://mailtrack.io
+  ```
+  
+### Whois Footprinting
+WHOIS databases are maintained by Regional Internet Registries and contain the personal information of domain owners.
+  ```sh
+  https://www.whois.com/
+  ```
+Also use,
+ ```sh
+  kloth.net
+  http://www.kloth.net/services/nslookup.php
+  Web Wiz
+  https://network-tools.webwiz.net/nslookup.htm
+  ```
+  
+### Gather Information on a Website using GRecon
+Google Dorking Python tool used to collect domains, sub-domain, directories, etc.
+(parrot os)
 
+### Gather a Wordlist from the Target Website
+CeWL: (Parrot OS)
+link
+  ```sh
+  cewl -w worldlist.txt -d 2 -m 5 xyz.com
+  ```
   
 
 <p align="right">(<a href="#top">back to top</a>)</p>
