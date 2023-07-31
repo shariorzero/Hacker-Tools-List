@@ -269,7 +269,6 @@ link
   cewl -w worldlist.txt -d 2 -m 5 xyz.com
   ```
 
-<!--check@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
 ### Track Email Sender Identity, IP Address, Mail Server, Geolocation
 Use  email tracker Infoga or Mailtrack (eMailTrackerPro software not available now). This help to find out the email location 
   ```sh
@@ -283,7 +282,7 @@ Use  email tracker Infoga or Mailtrack (eMailTrackerPro software not available n
   ```
   
 ### Whois Footprinting
-WHOIS databases are maintained by Regional Internet Registries and contain the personal information of domain owners.
+Regional Internet Registries maintain WHOIS databases and contain the personal information of domain owners.
   ```sh
   https://www.whois.com/
   ```
@@ -305,6 +304,19 @@ link
   ```sh
   cewl -w worldlist.txt -d 2 -m 5 xyz.com
   ```
+
+<!--check@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@-->
+### Gather DNS Information Using nslookup cmd utility and online tool
+nslookup = windows 11 builtin
+online tool
+http://www.kloth.net/services/nslookup.php
+https://dnsdumpster.com/
+### Reverse DNS Lookup
+used to find out sites/domains that share same web servers as our target server.
+Reverse IP domain check online tool (www.yougetsignal.com similar website search)
+DNSrecon: dnsrecon.py tool (parrot os)
+
+
   
 
 <p align="right">(<a href="#top">back to top</a>)</p>
